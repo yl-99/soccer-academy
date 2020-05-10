@@ -1,0 +1,46 @@
+h1{
+    margin-block-start: 0px;
+    font-size: 55px;
+    text-align: center;
+}
+h1 p{
+    font-size: 20px;
+}
+.nav{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 351px;
+}
+#player{
+    color: white;
+    width: 100px;
+	height: 70px;
+    border-radius:15px;
+    border-color: black;
+    background: #555;
+    margin-right: 80px;
+}
+#coach{
+    color: white;
+    width: 100px;
+	height: 70px;
+    border-radius:15px;
+    border-color: black;
+    background: #555;
+    margin-right: 80px; 
+}
+#subscribe{
+    position:absolute;
+    top:60px;
+    left:650px;
+    margin: 100px;
+    border-radius: 20px;
+    
+}
+#player:hover{
+
+}
+#coach:hover{
+    
+}

@@ -1,0 +1,45 @@
+<a routerLink='/home'>
+  <img id="logo" src="../assets/images/logo.png">
+</a>
+
+<nav class="sideNavBar" *ngIf="path === 'player'">
+  <div id="toggleBtn" (click)="toggleSideBar()">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+  
+  <ul>
+      <li routerLink="/player/howtoplay">BASICS</li>
+      <li routerLink="/player/technique">TECHNIQUE</li>
+      <li routerLink="/player/skill">SKILL</li>
+      <li routerLink="/player/fitness">FITNESS</li>
+      <li routerLink="/player/positioning">POSITIONING</li>
+      <li routerLink="/player/planning">PLANNING</li>
+      <li routerLink="/player/playerrecruit">RECRUITMENT</li>
+      <!-- <li routerLink="/newsletter">SUBSCRIBE</li> -->
+      <li routerLink="/home">HOME</li>
+  </ul>
+</nav>
+
+<nav class="sideNavBar" *ngIf="path === 'coach'">
+  <div id="toggleBtn" (click)="toggleSideBar()">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+  
+  <ul>
+      <li routerLink="/coach/howtoplay">BASICS</li>
+      <li routerLink="/coach/equipment">EQUIPMENT</li>
+      <li routerLink="/coach/drills">DRILLS</li>
+      <li routerLink="/coach/plan">PLANNING</li>
+      <li routerLink="/coach/persona">PERSONALITY</li>
+      <li routerLink="/coach/coachrecruit">RECRUITMENT</li>
+      <!-- <li routerLink="/newsletter">SUBSCRIBE</li> -->
+      <li routerLink="/home">HOME</li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
+

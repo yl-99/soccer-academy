@@ -1,0 +1,66 @@
+#logo{
+    width: 70px; 
+    height: 70px;
+    margin-left: 750px;
+  }
+.sideNavBar{
+    position: fixed;
+    width: 100px;
+    left:-200px;
+    top:0px;
+}
+.sideNavBar.active{
+    left:-15px;
+    transition: 300ms;
+}
+.sideNavBar li{
+    text-align: center;
+    color: rgb(252, 252, 255);
+    font-size: 12px;
+    list-style: none;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 10px;
+    border: 3px solid rgb(252, 252, 255);
+    background-color: rgb(84, 84, 85);
+    border-radius:10px;
+
+}
+.sideNavBar li:hover{
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(84, 84, 85);   
+    background-color: rgb(252, 252, 255);
+    margin-left: 10px;
+    transition:background-color 300ms ease-in;
+    transition: margin-left 300ms ease-in;
+    cursor: pointer;
+}
+.sideNavBar ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+}
+#toggleBtn{
+    position: absolute;
+    top:0px;
+    left:200px;
+}
+#toggleBtn span{
+    display: block;
+    width: 20px;
+    height: 5px;
+    margin: 5px;
+    background-color: rgb(46, 46, 46);
+}  
+
+.foot{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    left: 0px;
+}
+.foot p{
+    display:inline;
+    margin: 20px;
+    color: aliceblue;
+}
