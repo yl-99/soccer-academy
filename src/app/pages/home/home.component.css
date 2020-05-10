@@ -21,6 +21,11 @@ h1 p{
     background: #555;
     margin-right: 80px;
 }
+#player:hover{
+    color: black;
+    border-color: #555;
+    background: white;
+}
 #coach{
     color: white;
     width: 100px;
@@ -28,7 +33,12 @@ h1 p{
     border-radius:15px;
     border-color: black;
     background: #555;
-    margin-right: 80px; 
+    margin-left: 80px; 
+}
+#coach:hover{
+    color: black;
+    border-color: #555;
+    background: white;
 }
 #subscribe{
     position:absolute;
@@ -38,9 +48,4 @@ h1 p{
     border-radius: 20px;
     
 }
-#player:hover{
 
-}
-#coach:hover{
-    
-}

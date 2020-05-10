@@ -1,7 +1,9 @@
+.banner{
+    text-align: center;
+}
 #logo{
     width: 70px; 
     height: 70px;
-    margin-left: 750px;
   }
 .sideNavBar{
     position: fixed;
